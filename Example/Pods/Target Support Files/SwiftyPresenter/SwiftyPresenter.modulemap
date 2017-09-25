@@ -1,0 +1,6 @@
+framework module SwiftyPresenter {
+  umbrella header "SwiftyPresenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

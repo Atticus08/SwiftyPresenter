@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B1BCD17759FFD5F72FCD707F /* Pods_SwiftyPresenter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F7F06902EDC204B6E02A8 /* Pods_SwiftyPresenter_Example.framework */; };
+		D8738CC01F793171006A2743 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +31,8 @@
 /* Begin PBXFileReference section */
 		2D2C737B1B76B1D22A4D8A73 /* Pods-SwiftyPresenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPresenter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyPresenter_Example/Pods-SwiftyPresenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5418D32A5BBB9148A19AC3D6 /* Pods-SwiftyPresenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPresenter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyPresenter_Example/Pods-SwiftyPresenter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		543D372D25B537CE5A619BD9 /* SwiftyPresenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyPresenter.podspec; path = ../SwiftyPresenter.podspec; sourceTree = "<group>"; };
-		5EBCE5C83B79F51396A7A65B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		543D372D25B537CE5A619BD9 /* SwiftyPresenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyPresenter.podspec; path = ../SwiftyPresenter.podspec; sourceTree = "<group>"; };
+		5EBCE5C83B79F51396A7A65B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyPresenter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPresenter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		722F7F06902EDC204B6E02A8 /* Pods_SwiftyPresenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPresenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82C48A1C57E99DCE17BC5C61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		82C48A1C57E99DCE17BC5C61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C5F0358E4F3E391C1504B5F2 /* Pods_SwiftyPresenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPresenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C918D516E4C73F342175FC0C /* Pods-SwiftyPresenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPresenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyPresenter_Tests/Pods-SwiftyPresenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEB4E1D55541D7BDBFF2DCEE /* Pods-SwiftyPresenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPresenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyPresenter_Tests/Pods-SwiftyPresenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +216,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NWHGG4R3R5;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -362,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				D8738CC01F793171006A2743 /* Tests.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,12 +499,15 @@
 			baseConfigurationReference = 2D2C737B1B76B1D22A4D8A73 /* Pods-SwiftyPresenter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NWHGG4R3R5;
 				INFOPLIST_FILE = SwiftyPresenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -510,12 +516,15 @@
 			baseConfigurationReference = 5418D32A5BBB9148A19AC3D6 /* Pods-SwiftyPresenter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NWHGG4R3R5;
 				INFOPLIST_FILE = SwiftyPresenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

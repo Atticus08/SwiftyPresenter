@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyPresenter (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyPresenter (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyPresenter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyPresenter: efce98a40c54193326662c3fa3cf246d8f92426e
+
+PODFILE CHECKSUM: 0d27b40734ba554354f4e3e7faf36c165781b027
+
+COCOAPODS: 1.2.1
