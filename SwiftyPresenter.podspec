@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
           # Name of pod
           s.name               = "SwiftyPresenter"
           # Version of pod
-          s.version            = "0.1.1"
+          s.version            = "0.1.2"
           # Pod description  
           s.summary         = "Presents Container Controller on top of Current View"
           # Project page for framework

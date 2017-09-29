@@ -13,6 +13,7 @@ SwiftyPresenter is a very simple to use, custom View Controller Transitioning de
 The default configuration for the delegate is as follows:
  - Dimmer View: This is added behind the View Controller container. It "dims" the view behind the container, in case the user doesn't wan't the container to take up the whole screen.
      + Default: Enabled
+ - Dismiss With Dimmer View: This enables/dismisses the touch gesture on the dimmer view to close out the Swifty Presenter.
  - Direction: Specifies the direction the view controller will transition from (top, right, bottom, left)
      + Default: Bottom
  - Container Size: This determines the size of the view controller container. It's a multiplier that's used on the views full size. As of v.0.1.1, this is functional, for top and bottom transitions. Left and right transitions currently usees the view's full height, with 2/3's of it's width. Will implement for Left and Right later on.
@@ -44,7 +45,7 @@ To customize the configuration, (3) different transition functions should be cal
 ```
     lazy var swiftyTransition: SwiftyPresenter = {
         let swifty = SwiftyPresenter()
-        swifty.transition(from: .bottom, useDimmer: true, withContainerSizeof: .containerSize(width: 1, height: 1), framePositionAt: .framePos(width: 1, height: 0.9))
+        swifty.transition(from: .bottom, useDimmer: true, dismissWithDimmer: false, withContainerSizeof: .containerSize(width: 1, height: 1), framePositionAt: .framePos(width: 1, height: 0.9))
         swifty.transition(withAnimationDurationOf: 0.8)
         swifty.transition(withRoundCornersOn: [.topLeft, .topRight])
         return swifty
@@ -57,7 +58,7 @@ SwiftyPresenter is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```
-pod 'SwiftyPresenter', '~> 0.1.1’
+pod 'SwiftyPresenter', '~> 0.1.2’
 ```
 
 ## Author
