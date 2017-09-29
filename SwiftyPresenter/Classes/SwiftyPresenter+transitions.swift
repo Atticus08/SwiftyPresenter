@@ -27,9 +27,10 @@
  */
 
 extension SwiftyPresenter: UIViewControllerTransitioningDelegate {
-    public func transition(from direction: PresentationDirection, useDimmer: Bool, withContainerSizeof containerSize: SwiftyDimensions = .containerSize(width: 1, height: 1), framePositionAt framePos: SwiftyDimensions = .framePos(width: 1/3, height: 1/3)) {
+    public func transition(from direction: PresentationDirection, useDimmer: Bool, dismissWithDimmer: Bool,  withContainerSizeof containerSize: SwiftyDimensions = .containerSize(width: 1, height: 1), framePositionAt framePos: SwiftyDimensions = .framePos(width: 1/3, height: 1/3)) {
         self.options.direction = direction
         self.options.useDimmer = useDimmer
+        self.options.dismissWithDimmer = dismissWithDimmer
         self.options.containerSize = containerSize
         self.options.framePos = framePos
     }

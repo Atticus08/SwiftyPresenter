@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     lazy var swiftyTransition: SwiftyPresenter = {
         let swifty = SwiftyPresenter()
-        swifty.transition(from: .bottom, useDimmer: true, withContainerSizeof: .containerSize(width: 1, height: 1), framePositionAt: .framePos(width: 1, height: 0.9))
+        swifty.transition(from: .bottom, useDimmer: true, dismissWithDimmer: true, withContainerSizeof: .containerSize(width: 1, height: 1), framePositionAt: .framePos(width: 1, height: 0.9))
         swifty.transition(withAnimationDurationOf: 0.8)
         swifty.transition(withRoundCornersOn: [.topLeft, .topRight])
         return swifty

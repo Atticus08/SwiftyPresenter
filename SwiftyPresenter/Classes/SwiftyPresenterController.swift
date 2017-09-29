@@ -30,6 +30,7 @@ import UIKit
 
 internal final class SwiftyPresenterController: UIPresentationController {
     fileprivate let useDimmer: Bool
+    fileprivate let dismissWithDimmer: Bool
     fileprivate let direction: PresentationDirection
     fileprivate var containerSizeWidth: CGFloat = 1
     fileprivate var containerSizeHeight: CGFloat = 1
@@ -41,6 +42,7 @@ internal final class SwiftyPresenterController: UIPresentationController {
     
     init (presentedViewController: UIViewController, presenting presentingViewController: UIViewController?, options: SwiftyOptions) {
         self.useDimmer = options.useDimmer
+        self.dismissWithDimmer = options.dismissWithDimmer
         self.direction = options.direction
         if case let SwiftyDimensions.containerSize(width, height) = options.containerSize {
             self.containerSizeWidth = width
@@ -117,7 +119,7 @@ internal final class SwiftyPresenterController: UIPresentationController {
     override public func size(forChildContentContainer container: UIContentContainer, withParentContainerSize parentSize: CGSize) -> CGSize {
         switch direction {
         case .left, .right:
-            return CGSize(width: parentSize.width*(2.0/3.0), height: parentSize.height)
+            return CGSize(width: parentSize.width * self.containerSizeWidth, height: parentSize.height * containerSizeHeight)
         case .bottom, .top:
             return CGSize(width: parentSize.width * self.containerSizeWidth, height: parentSize.height * self.containerSizeHeight)
         }
@@ -131,10 +133,10 @@ private extension SwiftyPresenterController {
             self.dimmingView.backgroundColor = UIColor(white: 0.0, alpha: 0.5)
         } else {
             self.dimmingView.backgroundColor = UIColor(white: 1.0, alpha: 0.0)
-        }
-        self.dimmingView.isUserInteractionEnabled = true
+        }        
         self.dimmingView.alpha = 0
         self.dimmingView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(recognizer:))))
+        self.dimmingView.isUserInteractionEnabled = self.dismissWithDimmer
     }
     
     dynamic func handleTap(recognizer: UITapGestureRecognizer) {

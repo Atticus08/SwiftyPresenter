@@ -42,6 +42,7 @@ public enum SwiftyDimensions {
 
 internal struct SwiftyOptions {
     var useDimmer: Bool = true
+    var dismissWithDimmer: Bool = true
     var direction: PresentationDirection = .bottom
     var containerSize: SwiftyDimensions = .containerSize(width: 1,height: 1)
     var framePos: SwiftyDimensions = .framePos(width: 1/3, height: 1/3)
