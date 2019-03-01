@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D81931B82229813A009361A7 /* SwiftyPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D81931B62229813A009361A7 /* SwiftyPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D81931C4222981B2009361A7 /* SwiftyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931BF222981B1009361A7 /* SwiftyPresenter.swift */; };
-		D81931C5222981B2009361A7 /* UIView+roundcorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931C0222981B1009361A7 /* UIView+roundcorners.swift */; };
-		D81931C7222981B2009361A7 /* SwiftyPresenterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931C2222981B2009361A7 /* SwiftyPresenterAnimator.swift */; };
-		D81931CF2229850D009361A7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931CE2229850D009361A7 /* Models.swift */; };
-		D81931D522298604009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931D422298604009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift */; };
-		D81931DB22298665009361A7 /* SwiftyPresenter+vcTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931DA22298665009361A7 /* SwiftyPresenter+vcTransition.swift */; };
-		D81931DD2229867E009361A7 /* SwiftyPresenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931DC2229867E009361A7 /* SwiftyPresenterController.swift */; };
-		D81931DF22298691009361A7 /* SwiftyPresenter+transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931DE22298691009361A7 /* SwiftyPresenter+transitions.swift */; };
+		D81931E222299C3C009361A7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931E122299C3C009361A7 /* Models.swift */; };
+		D81931E422299CE1009361A7 /* SwiftyPresenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931E322299CE1009361A7 /* SwiftyPresenterController.swift */; };
+		D81931E822299CFE009361A7 /* SwiftyPresenter+transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931E522299CFD009361A7 /* SwiftyPresenter+transitions.swift */; };
+		D81931E922299CFE009361A7 /* SwiftyPresenter+vcTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931E622299CFD009361A7 /* SwiftyPresenter+vcTransition.swift */; };
+		D81931EA22299CFE009361A7 /* SwiftyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931E722299CFE009361A7 /* SwiftyPresenter.swift */; };
+		D81931ED22299D0D009361A7 /* SwiftyPresenterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931EB22299D0D009361A7 /* SwiftyPresenterAnimator.swift */; };
+		D81931EE22299D0D009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931EC22299D0D009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift */; };
+		D81931F022299D38009361A7 /* UIView+roundcorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81931EF22299D38009361A7 /* UIView+roundcorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81931B32229813A009361A7 /* SwiftyPresenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPresenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81931B62229813A009361A7 /* SwiftyPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyPresenter.h; sourceTree = "<group>"; };
 		D81931B72229813A009361A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D81931BF222981B1009361A7 /* SwiftyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyPresenter.swift; sourceTree = "<group>"; };
-		D81931C0222981B1009361A7 /* UIView+roundcorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+roundcorners.swift"; sourceTree = "<group>"; };
-		D81931C2222981B2009361A7 /* SwiftyPresenterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyPresenterAnimator.swift; sourceTree = "<group>"; };
-		D81931CE2229850D009361A7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		D81931D422298604009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyPresenterAnimator+animatedTransition.swift"; sourceTree = "<group>"; };
-		D81931DA22298665009361A7 /* SwiftyPresenter+vcTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyPresenter+vcTransition.swift"; sourceTree = "<group>"; };
-		D81931DC2229867E009361A7 /* SwiftyPresenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyPresenterController.swift; sourceTree = "<group>"; };
-		D81931DE22298691009361A7 /* SwiftyPresenter+transitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyPresenter+transitions.swift"; sourceTree = "<group>"; };
+		D81931E122299C3C009361A7 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = SwiftyPresenter/Models/Models.swift; sourceTree = SOURCE_ROOT; };
+		D81931E322299CE1009361A7 /* SwiftyPresenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyPresenterController.swift; path = SwiftyPresenter/Controller/SwiftyPresenterController.swift; sourceTree = SOURCE_ROOT; };
+		D81931E522299CFD009361A7 /* SwiftyPresenter+transitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SwiftyPresenter+transitions.swift"; path = "SwiftyPresenter/Presenter/SwiftyPresenter+transitions.swift"; sourceTree = SOURCE_ROOT; };
+		D81931E622299CFD009361A7 /* SwiftyPresenter+vcTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SwiftyPresenter+vcTransition.swift"; path = "SwiftyPresenter/Presenter/SwiftyPresenter+vcTransition.swift"; sourceTree = SOURCE_ROOT; };
+		D81931E722299CFE009361A7 /* SwiftyPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyPresenter.swift; path = SwiftyPresenter/Presenter/SwiftyPresenter.swift; sourceTree = SOURCE_ROOT; };
+		D81931EB22299D0D009361A7 /* SwiftyPresenterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyPresenterAnimator.swift; path = SwiftyPresenter/Animator/SwiftyPresenterAnimator.swift; sourceTree = SOURCE_ROOT; };
+		D81931EC22299D0D009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SwiftyPresenterAnimator+animatedTransition.swift"; path = "SwiftyPresenter/Animator/SwiftyPresenterAnimator+animatedTransition.swift"; sourceTree = SOURCE_ROOT; };
+		D81931EF22299D38009361A7 /* UIView+roundcorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+roundcorners.swift"; path = "SwiftyPresenter/_uikit+extensions/UIView+roundcorners.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		D81931D022298580009361A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D81931CE2229850D009361A7 /* Models.swift */,
+				D81931E122299C3C009361A7 /* Models.swift */,
 			);
 			name = Models;
 			path = "New Group";
@@ -85,8 +85,8 @@
 		D81931D122298599009361A7 /* Animator */ = {
 			isa = PBXGroup;
 			children = (
-				D81931C2222981B2009361A7 /* SwiftyPresenterAnimator.swift */,
-				D81931D422298604009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift */,
+				D81931EB22299D0D009361A7 /* SwiftyPresenterAnimator.swift */,
+				D81931EC22299D0D009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift */,
 			);
 			name = Animator;
 			path = "New Group1";
@@ -95,9 +95,9 @@
 		D81931D822298642009361A7 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				D81931DE22298691009361A7 /* SwiftyPresenter+transitions.swift */,
-				D81931BF222981B1009361A7 /* SwiftyPresenter.swift */,
-				D81931DA22298665009361A7 /* SwiftyPresenter+vcTransition.swift */,
+				D81931E722299CFE009361A7 /* SwiftyPresenter.swift */,
+				D81931E522299CFD009361A7 /* SwiftyPresenter+transitions.swift */,
+				D81931E622299CFD009361A7 /* SwiftyPresenter+vcTransition.swift */,
 			);
 			name = Presenter;
 			path = "New Group2";
@@ -106,7 +106,7 @@
 		D81931D922298649009361A7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D81931DC2229867E009361A7 /* SwiftyPresenterController.swift */,
+				D81931E322299CE1009361A7 /* SwiftyPresenterController.swift */,
 			);
 			name = Controller;
 			path = "New Group2";
@@ -115,7 +115,7 @@
 		D81931E022298AB6009361A7 /* _uikit+extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D81931C0222981B1009361A7 /* UIView+roundcorners.swift */,
+				D81931EF22299D38009361A7 /* UIView+roundcorners.swift */,
 			);
 			name = "_uikit+extensions";
 			path = "New Group3";
@@ -200,14 +200,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81931C5222981B2009361A7 /* UIView+roundcorners.swift in Sources */,
-				D81931DF22298691009361A7 /* SwiftyPresenter+transitions.swift in Sources */,
-				D81931C7222981B2009361A7 /* SwiftyPresenterAnimator.swift in Sources */,
-				D81931DB22298665009361A7 /* SwiftyPresenter+vcTransition.swift in Sources */,
-				D81931C4222981B2009361A7 /* SwiftyPresenter.swift in Sources */,
-				D81931DD2229867E009361A7 /* SwiftyPresenterController.swift in Sources */,
-				D81931D522298604009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift in Sources */,
-				D81931CF2229850D009361A7 /* Models.swift in Sources */,
+				D81931E422299CE1009361A7 /* SwiftyPresenterController.swift in Sources */,
+				D81931ED22299D0D009361A7 /* SwiftyPresenterAnimator.swift in Sources */,
+				D81931E822299CFE009361A7 /* SwiftyPresenter+transitions.swift in Sources */,
+				D81931E922299CFE009361A7 /* SwiftyPresenter+vcTransition.swift in Sources */,
+				D81931F022299D38009361A7 /* UIView+roundcorners.swift in Sources */,
+				D81931EE22299D0D009361A7 /* SwiftyPresenterAnimator+animatedTransition.swift in Sources */,
+				D81931E222299C3C009361A7 /* Models.swift in Sources */,
+				D81931EA22299CFE009361A7 /* SwiftyPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
